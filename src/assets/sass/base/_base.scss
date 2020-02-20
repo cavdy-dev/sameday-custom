@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
