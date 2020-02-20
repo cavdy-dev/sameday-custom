@@ -1,0 +1,9 @@
+.sidebar {
+  min-width: $font300;
+  background-color: $primaryColor;
+  transition: min-width 0.4s;
+
+  &.active {
+    min-width: 140px;
+  }
+}
