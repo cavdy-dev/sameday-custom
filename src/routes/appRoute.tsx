@@ -1,4 +1,5 @@
 import React, { FunctionComponent, ReactElement } from 'react';
+import Dashboard from '../pages/Dashboard';
 
 type RouteType = {
   name: string;
@@ -7,7 +8,6 @@ type RouteType = {
   component: FunctionComponent;
 };
 
-const Home: FunctionComponent = (): ReactElement => <div>Home</div>;
 const NotFound: FunctionComponent = (): ReactElement => <div>Not Found</div>;
 
 const appRoutes: RouteType[] = [
@@ -15,7 +15,7 @@ const appRoutes: RouteType[] = [
     name: 'home',
     path: '/',
     exact: true,
-    component: Home,
+    component: Dashboard,
   },
   {
     name: 'notfound',
